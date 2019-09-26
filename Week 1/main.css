@@ -1,0 +1,25 @@
+#left_nav {
+
+    background-color: blueviolet
+    width:20%
+    float: left;
+    a:link {color:rgb(49, 146, 133);}      /* unvisited link */   
+    a:visited {color:rgb(68, 6, 80);}   /* visited link */   
+    a:hover {color:#FF00FF;}     /* mouse over link */   
+    a:active {color:#0000FF;}
+
+}
+
+
+#section {
+
+    background-color: blue
+    width:80%
+    float: right;
+}
+
+#wrapper {
+
+    width:80% 
+    margin: 0 auto;
+}
