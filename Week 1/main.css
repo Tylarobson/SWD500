@@ -1,25 +1,33 @@
-#left_nav {
-
-    background-color: blueviolet
-    width:20%
-    float: left;
-    a:link {color:rgb(49, 146, 133);}      /* unvisited link */   
-    a:visited {color:rgb(68, 6, 80);}   /* visited link */   
-    a:hover {color:#FF00FF;}     /* mouse over link */   
-    a:active {color:#0000FF;}
-
-}
-
-
-#section {
-
-    background-color: blue
-    width:80%
-    float: right;
-}
-
-#wrapper {
-
-    width:80% 
+.wrapper {
+    background-color: blueviolet;
+    width: 100vw;
     margin: 0 auto;
+    overflow: auto;
+    height: 30cm;
+}
+
+#left_nav {
+    width: 20%;
+    float: left;
+ 
+}
+
+#left_nav a:link {
+    color:rgb(49, 146, 133);        /* unvisited link */  
+}
+#left_nav a:visited {
+    color:rgb(68, 6, 80);       /* visited link */  
+}
+#left_nav a:hover {
+    color:rgb(243, 46, 210);        /* mouse over link */
+}
+#left_nav a:active {
+    color:rgb(198, 241, 78);        /* selected link */ 
+}
+
+.section {
+    background-color: blue;
+    width: 80%;
+    float: right;
+    height: 30cm;
 }
