@@ -1,0 +1,11 @@
+.wrapper {
+    border: 2px grey;
+    display:table;
+    width: 100%;
+
+}
+
+.col-12 {
+
+    width: 100%;
+}
